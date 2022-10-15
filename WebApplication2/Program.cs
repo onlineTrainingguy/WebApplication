@@ -20,7 +20,7 @@ namespace WebApplication2
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();1
+                    webBuilder.UseStartup<Startup>();
                 });
     }
 }
